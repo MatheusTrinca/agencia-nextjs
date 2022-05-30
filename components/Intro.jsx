@@ -15,7 +15,7 @@ const Intro = () => {
         </h1>
         <p className={styles.desc}>
           Crie midias ao vivo e atinja as pessoas certas baseadas em seu
-          comportamento
+          comportamento.
         </p>
         <button className={styles.button}>SAIBA MAIS </button>
       </div>
