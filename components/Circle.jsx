@@ -1,7 +1,7 @@
 import React from 'react';
 
-const Cirlce = props => {
+const Circle = props => {
   return <div className="circle" style={{ ...props }} />;
 };
 
-export default Cirlce;
+export default Circle;

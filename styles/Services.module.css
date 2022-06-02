@@ -30,6 +30,7 @@
   margin-bottom: 50px;
   background-color: whitesmoke;
   position: relative;
+  cursor: pointer;
 }
 
 .video {
