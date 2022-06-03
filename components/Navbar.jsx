@@ -20,7 +20,7 @@ const Navbar = () => {
           <Link href="/products/photography">FOTOGRAFIA</Link>
         </li>
         <li className={styles.listItem}>
-          <Link href="/products/contact">CONTATO</Link>
+          <Link href="/contact">CONTATO</Link>
         </li>
       </ul>
     </div>
