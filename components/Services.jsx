@@ -6,15 +6,15 @@ import Image from 'next/image';
 const Services = ({ services }) => {
   return (
     <div className={styles.container}>
-      <div className={styles.title}>
-        <h2>O que podemos fazer?</h2>
-      </div>
-      <div className={styles.subtitle}>
-        <h2>Fornecemos serviços que podem te ajudar</h2>
-      </div>
+      <h1 className={styles.title}>O que podemos fazer?</h1>
+
+      <h1 className={styles.subtitle}>
+        Fornecemos serviços que podem te ajudar
+      </h1>
+
       <div className={styles.services}>
         {services.map(service => (
-          <Link passHref key={service.id} href={`/products/${service.name}`}>
+          <Link key={service.id} href={`/products/${service.name}`}>
             <div className={styles.service}>
               <div className={styles.desc}>{service.desc}</div>
               <span className={styles.cat}>{service.title}</span>

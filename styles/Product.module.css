@@ -16,6 +16,7 @@
 .imgContainer {
   width: 30%;
   margin: 5px;
+  position: relative;
 }
 
 .imgContainer:nth-child(3) {
@@ -37,4 +38,28 @@
   border-radius: 10px;
   margin-top: 50px;
   cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    flex-direction: column-reverse;
+    padding: 30px;
+    text-align: center;
+  }
+  .imgContainer {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  .cardL {
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .cardL::before {
+    content: 'Projects';
+    width: 100%;
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
 }

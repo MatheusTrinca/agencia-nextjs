@@ -53,3 +53,19 @@
 .jobtitle {
   font-size: 14px;
 }
+
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 20px;
+    height: auto;
+  }
+  .card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+}
